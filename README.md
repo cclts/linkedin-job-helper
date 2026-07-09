@@ -2,24 +2,21 @@
 
 A Chrome extension for LinkedIn Jobs that helps job seekers highlight reposted jobs, copy job descriptions with a shortcut, and streamline their job search workflow.
 
-## Feature
+## Features
 
-- **Before-click repost highlighting**: Marks reposted jobs directly in the LinkedIn search results list before you open the job detail pane.
-- **Won't spam job pages**: Uses LinkedIn's own already-loaded jobs search response instead of opening every job page one by one, avoiding extra traffic that could trigger rate limits.
-- **Copy job description shortcut**: Copies the currently opened job description with a Chrome shortcut you can configure yourself.
-- **Resume-tailoring ready**: Quickly copy job descriptions into your own job tracker or resume-tailoring pipeline.
-
-## Keywords
-
-LinkedIn Jobs, Chrome Extension, Reposted Jobs, Job Search, Job Hunting, Job Description, Productivity, Resume Tailoring, Manifest V3
+- **See reposted jobs before you click**: Highlights reposted LinkedIn job postings directly in your search results. No need to open each listing to find out.
+- **Zero extra requests**: Reads repost status from LinkedIn's own search traffic as you browse — no extra page visits, no rate-limit risk.
+- **One-shortcut JD copy**: Copy the full job description of whatever posting you have open with a customizable keyboard shortcut.
+- **Built for resume tailoring**: Paste straight into your job tracker or resume-tailoring workflow, no manual selecting and copying.
 
 ## How to install
 
-1. Open Chrome and go to `chrome://extensions`.
-2. Turn on **Developer mode**.
-3. Click **Load unpacked**.
-4. Select the `linkedin-job-helper` folder.
-5. Done!
+1. Clone or download this repository first
+2. Open Chrome and go to `chrome://extensions`.
+3. Turn on **Developer mode**.
+4. Click **Load unpacked**.
+5. Select the `linkedin-job-helper` folder.
+6. Done!
 
 ## How to change the keyboard shortcut
 
@@ -33,4 +30,4 @@ The suggested default is `Alt+Shift+J`.
 
 ## Want a new feature?
 
-The current scope is intentionally limited to **LinkedIn Jobs**. If you have an idea for a new feature, please open an issue describing your use case and the expected behavior.
+Scope is intentionally kept to **LinkedIn Jobs** for now. Got an idea? Open an issue with what you're trying to do and I'll take a look.
