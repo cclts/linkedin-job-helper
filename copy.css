@@ -1,0 +1,17 @@
+.ljh-toast {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 2147483647;
+  max-width: min(420px, calc(100vw - 40px));
+  padding: 12px 14px;
+  border-radius: 8px;
+  color: #ffffff;
+  background: #0f172a;
+  box-shadow: 0 8px 28px rgba(15, 23, 42, 0.22);
+  font: 600 14px/1.35 Arial, sans-serif;
+}
+
+.ljh-toast-error {
+  background: #991b1b;
+}

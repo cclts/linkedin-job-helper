@@ -1,0 +1,38 @@
+{
+  "manifest_version": 3,
+  "name": "LinkedIn Job Helper",
+  "description": "Copy the current LinkedIn job description with a keyboard shortcut.",
+  "version": "0.3.0",
+  "permissions": ["clipboardWrite", "storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "copy-jd": {
+      "suggested_key": {
+        "default": "Alt+Shift+J"
+      },
+      "description": "Copy the current LinkedIn job description"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.linkedin.com/jobs/*"],
+      "js": ["network-capture.js"],
+      "world": "MAIN",
+      "run_at": "document_start"
+    },
+    {
+      "matches": ["https://www.linkedin.com/jobs/*"],
+      "js": ["repost.js"],
+      "css": ["repost.css"],
+      "run_at": "document_start"
+    },
+    {
+      "matches": ["https://www.linkedin.com/jobs/*"],
+      "js": ["copy.js"],
+      "css": ["copy.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}

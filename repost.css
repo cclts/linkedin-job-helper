@@ -1,0 +1,45 @@
+.ljh-reposted-job {
+  position: relative !important;
+  overflow: hidden !important;
+  background: #e5e7eb !important;
+  box-shadow: inset 4px 0 0 #6b7280 !important;
+  filter: grayscale(0.55);
+}
+
+.ljh-reposted-job::after {
+  content: "Reposted" !important;
+  position: absolute !important;
+  inset: auto !important;
+  top: 10px !important;
+  right: 12px !important;
+  bottom: auto !important;
+  left: auto !important;
+  z-index: 999 !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: auto !important;
+  min-width: 0 !important;
+  max-width: max-content !important;
+  height: auto !important;
+  min-height: 0 !important;
+  padding: 3px 8px !important;
+  border-radius: 4px !important;
+  color: #111827 !important;
+  background: rgba(255, 255, 255, 0.94) !important;
+  border: 1px solid rgba(75, 85, 99, 0.55) !important;
+  font: 700 11px/1.2 Arial, sans-serif !important;
+  letter-spacing: 0 !important;
+  text-transform: uppercase !important;
+  white-space: nowrap !important;
+  pointer-events: none !important;
+}
+
+.ljh-reposted-job::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 998;
+  background: rgba(229, 231, 235, 0.24);
+  pointer-events: none;
+}
