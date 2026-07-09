@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "LinkedIn Job Helper",
-  "description": "Copy the current LinkedIn job description with a keyboard shortcut.",
-  "version": "0.3.0",
+  "description": "Highlight reposted LinkedIn Jobs and copy job descriptions with a configurable shortcut.",
+  "version": "1.0.0",
   "permissions": ["clipboardWrite", "storage"],
   "background": {
     "service_worker": "background.js"
