@@ -2,6 +2,10 @@
 
 A Chrome extension for LinkedIn Jobs that helps job seekers highlight reposted jobs, copy job descriptions with a shortcut, and streamline their job search workflow.
 
+## Demo
+
+![LinkedIn Job Helper highlighting reposted jobs in LinkedIn search results](assets/demo.png)
+
 ## Features
 
 - **See reposted jobs before you click**: Highlights reposted LinkedIn job postings directly in your search results. No need to open each listing to find out.
